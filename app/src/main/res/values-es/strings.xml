@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Super Task</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">Super Task</string>
+    <string name="splash_subtitle">Organiza tu vida, sin esfuerzo.</string>
+    <string name="splash_description">Domina tu productividad. Gestiona tareas,\norganiza grupos de tareas, sincroniza tu calendario,\ny mantente al día con notificaciones inteligentes.</string>
+
+    <!-- Compartir App -->
+    <string name="share_app">Compartir App</string>
+    <string name="share_app_title">Compartir Super Task</string>
+    <string name="share_app_subject">Prueba Super Task - Gestor de Tareas</string>
+    <string name="share_app_text">¡Hola! Te recomiendo Super Task, una increíble app para organizar tus tareas sin esfuerzo.\n\nDescárgala aquí: %1$s</string>
+
+    <!-- Home Screen -->
+    <string name="good_morning">Buenos Días</string>
+    <string name="good_afternoon">Buenas Tardes</string>
+    <string name="good_evening">Buenas Noches</string>
+    <string name="search_tasks">Buscar tareas...</string>
+    <string name="filter_all">Todas</string>
+    <string name="filter_pending">Pendientes</string>
+    <string name="filter_by_group">Por Grupo</string>
+    <string name="filter_completed">Completadas</string>
+    <string name="section_overdue">ATRASADAS</string>
+    <string name="section_today">HOY</string>
+    <string name="section_tomorrow">MAÑANA</string>
+    <string name="section_upcoming">PRÓXIMAS</string>
+    <string name="due_yesterday">Vencida Ayer</string>
+    <string name="no_tasks">Aún no hay tareas</string>
+    <string name="add_first_task">Agrega tu primera tarea para comenzar</string>
+
+    <!-- Calendar Screen -->
+    <string name="calendar">Calendario</string>
+    <string name="tasks_for">Tareas para %1$s</string>
+    <string name="no_tasks_for_day">No hay tareas para este día</string>
+
+    <!-- Groups Screen -->
+    <string name="groups">Grupos</string>
+    <string name="manage_groups">Administrar Grupos</string>
+    <string name="my_lists">MIS LISTAS</string>
+    <string name="create_new_list">Crear nueva lista...</string>
+    <string name="create_new_group">Crear Nuevo Grupo</string>
+    <string name="edit_group">Editar Grupo</string>
+    <string name="pin_group">Fijar</string>
+    <string name="unpin_group">Quitar fijado</string>
+    <string name="group_personal">Personal</string>
+    <string name="group_work">Trabajo</string>
+    <string name="group_shopping">Compras</string>
+    <string name="group_fitness">Fitness</string>
+    <string name="tasks_count">%1$d tareas</string>
+    <string name="delete">ELIMINAR</string>
+    <string name="done">Listo</string>
+    <string name="back">Volver</string>
+    <string name="date">Fecha</string>
+    <string name="date_yesterday">Ayer</string>
+    <string name="date_today">Hoy</string>
+    <string name="date_tomorrow">Mañana</string>
+    <string name="end_date">Fecha de finalización</string>
+    <string name="no_end_date">Sin fecha final</string>
+    <string name="clear">Limpiar</string>
+
+    <!-- New Task Screen -->
+    <string name="new_task">Nueva Tarea</string>
+    <string name="edit_task">Editar Tarea</string>
+    <string name="task_title_hint">¿Qué necesitas hacer?</string>
+    <string name="due_date">Fecha de Vencimiento</string>
+    <string name="group">Grupo</string>
+    <string name="recurrence">Recurrencia</string>
+    <string name="recurrence_never">Nunca</string>
+    <string name="recurrence_daily">Diaria</string>
+    <string name="recurrence_weekly">Semanal</string>
+    <string name="recurrence_monthly">Mensual</string>
+    <string name="recurrence_custom">Personalizada</string>
+    <string name="save_task">Guardar Tarea</string>
+    <string name="cancel">Cancelar</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Configuración</string>
+    <string name="name">NOMBRE</string>
+    <string name="theme">TEMA</string>
+    <string name="theme_normal">Normal</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="notifications">NOTIFICACIONES</string>
+    <string name="push_notifications">Notificaciones Push</string>
+    <string name="reminder_sound">Sonido de Recordatorio</string>
+    <string name="do_not_disturb">No Molestar</string>
+    <string name="general">GENERAL</string>
+    <string name="language">Idioma</string>
+    <string name="language_english">Inglés</string>
+    <string name="language_spanish">Español</string>
+    <string name="calendar_sync">Sincronización de Calendario</string>
+    <string name="task_grouping">Agrupación de Tareas</string>
+    <string name="start_of_week">Inicio de Semana</string>
+    <string name="monday">Lunes</string>
+    <string name="sunday">Domingo</string>
+    <string name="support">SOPORTE</string>
+    <string name="privacy_policy">Política de Privacidad</string>
+    <string name="version">Versión %1$s</string>
+
+    <string name="repeat_every">Repetir cada</string>
+    <string name="day">día</string>
+    <string name="days">días</string>
+
+    <!-- Navigation -->
+    <string name="nav_tasks">Tareas</string>
+    <string name="nav_calendar">Calendario</string>
+    <string name="nav_groups">Grupos</string>
+    <string name="nav_notes">Notas</string>
+    <string name="nav_settings">Ajustes</string>
+
+    <!-- Pantalla de Notas -->
+    <string name="new_note">Nueva Nota</string>
+    <string name="edit_note">Editar Nota</string>
+    <string name="note_title_hint">Título</string>
+    <string name="note_description_hint">Escribe algo…</string>
+    <string name="note_untitled">Sin título</string>
+    <string name="no_group">Sin Grupo</string>
+    <string name="no_notes">Aún no hay notas</string>
+    <string name="add_first_note">Toca + para crear tu primera nota</string>
+    <string name="save_note">Guardar Nota</string>
+    <string name="delete_note_title">¿Eliminar Nota?</string>
+    <string name="delete_note_message">Esta acción no se puede deshacer.</string>
+    <string name="note_images">Imágenes</string>
+    <string name="share_note_chooser">Compartir nota</string>
+    <string name="add_image">Añadir imagen</string>
+    <string name="add_image_source">¿Desde dónde deseas añadir la imagen?</string>
+    <string name="image_source_camera">Cámara</string>
+    <string name="image_source_gallery">Galería</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Recordatorios de Tareas</string>
+    <string name="notification_body">Revisa tus tareas de hoy</string>
+    <string name="notification_body_today">Tienes %d tareas para hoy</string>
+    <string name="notification_body_overdue">Tienes %d tareas atrasadas</string>
+
+    <string name="notification_title_singular">Tienes 1 tarea pendiente</string>
+    <string name="notification_title_plural">Tienes %d tareas pendientes</string>
+    <string name="notification_body_default">Revisa tus tareas</string>
+    <string name="notification_body_today_singular">1 tarea para hoy</string>
+    <string name="notification_body_today_plural">%d tareas para hoy</string>
+    <string name="notification_body_overdue_singular">1 tarea atrasada</string>
+    <string name="notification_body_overdue_plural">%d tareas atrasadas</string>
+    <string name="notification_body_both">%d para hoy y %d atrasadas</string>
+    <string name="notification_channel_description">Recordatorios diarios para tus tareas</string>
+
+    <!-- Dialogs -->
+    <string name="delete_group_title">¿Eliminar Grupo?</string>
+    <string name="delete_group_message">Este grupo tiene %1$d tareas. ¿Qué te gustaría hacer?</string>
+    <string name="delete_group_and_tasks">Eliminar grupo y tareas</string>
+    <string name="move_tasks_to_none">Mover tareas a "Sin Grupo"</string>
+    <string name="delete_task_title">¿Eliminar Tarea?</string>
+    <string name="delete_task_message">Esta acción no se puede deshacer.</string>
+    <string name="delete_recurring_task_message">Se eliminarán TODAS las instancias de esta tarea recurrente (pasadas, presentes y futuras). Esta acción no se puede deshacer.</string>
+    <string name="confirm">Confirmar</string>
+
+    <!-- Compartir Tareas -->
+    <string name="share_tasks_chooser">Compartir tareas</string>
+
+    <!-- Data Export / Import -->
+    <string name="data_section">DATOS</string>
+    <string name="export_tasks">Exportar tareas</string>
+    <string name="import_tasks">Importar tareas</string>
+    <string name="export_success">Exportación completada</string>
+    <string name="import_invalid_file">Archivo inválido</string>
+    <string name="import_success">%1$d tareas importadas</string>
+    <string name="import_conflict_title">Conflicto al importar</string>
+    <string name="import_conflict_message">Se encontraron %1$d tarea(s) con el mismo ID ya existente. ¿Qué deseas hacer?</string>
+    <string name="import_overwrite">Sobreescribir</string>
+    <string name="import_keep_mine">Mantener las mías</string>
+
+    <!-- Permissions -->
+    <string name="permission_notification_title">Habilitar Notificaciones</string>
+    <string name="permission_notification_message">Permite que Super Task te envíe recordatorios de tus tareas.</string>
+    <string name="allow">Permitir</string>
+    <string name="not_now">Ahora No</string>
+</resources>

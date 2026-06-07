@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">Super Task</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_title">Super Task</string>
+    <string name="splash_subtitle">Organize your life, effortlessly.</string>
+    <string name="splash_description">Master your productivity. Manage tasks,\norganize task groups, sync your calendar,\nand stay on track with smart notifications.</string>
+
+    <!-- Share App -->
+    <string name="share_app">Share App</string>
+    <string name="share_app_title">Share Super Task</string>
+    <string name="share_app_subject">Try Super Task - Task Manager</string>
+    <string name="share_app_text">Hi! I recommend Super Task, an amazing app to organize your tasks effortlessly.\n\nDownload it here: %1$s</string>
+
+    <!-- Home Screen -->
+    <string name="good_morning">Good Morning</string>
+    <string name="good_afternoon">Good Afternoon</string>
+    <string name="good_evening">Good Evening</string>
+    <string name="search_tasks">Search tasks...</string>
+    <string name="filter_all">All</string>
+    <string name="filter_pending">Pending</string>
+    <string name="filter_by_group">By Group</string>
+    <string name="filter_completed">Completed</string>
+    <string name="section_overdue">OVERDUE</string>
+    <string name="section_today">TODAY</string>
+    <string name="section_tomorrow">TOMORROW</string>
+    <string name="section_upcoming">UPCOMING</string>
+    <string name="due_yesterday">Due Yesterday</string>
+    <string name="no_tasks">No tasks yet</string>
+    <string name="add_first_task">Add your first task to get started</string>
+
+    <!-- Calendar Screen -->
+    <string name="calendar">Calendar</string>
+    <string name="tasks_for">Tasks for %1$s</string>
+    <string name="no_tasks_for_day">No tasks for this day</string>
+
+    <!-- Groups Screen -->
+    <string name="groups">Groups</string>
+    <string name="manage_groups">Manage Groups</string>
+    <string name="my_lists">MY LISTS</string>
+    <string name="create_new_list">Create new list...</string>
+    <string name="create_new_group">Create New Group</string>
+    <string name="edit_group">Edit Group</string>
+    <string name="pin_group">Pin</string>
+    <string name="unpin_group">Unpin</string>
+    <string name="group_personal">Personal</string>
+    <string name="group_work">Work</string>
+    <string name="group_shopping">Shopping</string>
+    <string name="group_fitness">Fitness</string>
+    <string name="tasks_count">%1$d tasks</string>
+    <string name="delete">DELETE</string>
+    <string name="done">Done</string>
+    <string name="back">Back</string>
+    <string name="date">Date</string>
+    <string name="date_yesterday">Yesterday</string>
+    <string name="date_today">Today</string>
+    <string name="date_tomorrow">Tomorrow</string>
+    <string name="end_date">End date</string>
+    <string name="no_end_date">No end date</string>
+    <string name="clear">Clear</string>
+
+    <!-- New Task Screen -->
+    <string name="new_task">New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title_hint">What needs to be done?</string>
+    <string name="due_date">Due Date</string>
+    <string name="group">Group</string>
+    <string name="recurrence">Recurrence</string>
+    <string name="recurrence_never">Never</string>
+    <string name="recurrence_daily">Daily</string>
+    <string name="recurrence_weekly">Weekly</string>
+    <string name="recurrence_monthly">Monthly</string>
+    <string name="recurrence_custom">Custom</string>
+    <string name="save_task">Save Task</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Settings Screen -->
+    <string name="settings">Settings</string>
+    <string name="name">NAME</string>
+    <string name="theme">THEME</string>
+    <string name="theme_normal">Normal</string>
+    <string name="theme_dark">Dark</string>
+    <string name="notifications">NOTIFICATIONS</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="reminder_sound">Reminder Sound</string>
+    <string name="do_not_disturb">Do Not Disturb</string>
+    <string name="general">GENERAL</string>
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="calendar_sync">Calendar Sync</string>
+    <string name="task_grouping">Task Grouping</string>
+    <string name="start_of_week">Start of Week</string>
+    <string name="monday">Monday</string>
+    <string name="sunday">Sunday</string>
+    <string name="support">SUPPORT</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="version">Version %1$s</string>
+
+    <string name="repeat_every">Repeat every</string>
+    <string name="day">day</string>
+    <string name="days">days</string>
+
+    <!-- Navigation -->
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_groups">Groups</string>
+    <string name="nav_notes">Notes</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Notes Screen -->
+    <string name="new_note">New Note</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="note_title_hint">Title</string>
+    <string name="note_description_hint">Write something…</string>
+    <string name="note_untitled">Untitled</string>
+    <string name="no_group">No Group</string>
+    <string name="no_notes">No notes yet</string>
+    <string name="add_first_note">Tap + to create your first note</string>
+    <string name="save_note">Save Note</string>
+    <string name="delete_note_title">Delete Note?</string>
+    <string name="delete_note_message">This action cannot be undone.</string>
+    <string name="note_images">Images</string>
+    <string name="share_note_chooser">Share note</string>
+    <string name="add_image">Add image</string>
+    <string name="add_image_source">Where would you like to add the image from?</string>
+    <string name="image_source_camera">Camera</string>
+    <string name="image_source_gallery">Gallery</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">Task Reminders</string>
+    <string name="notification_body">Check your tasks for today</string>
+    <string name="notification_body_today">You have %d tasks for today</string>
+    <string name="notification_body_overdue">You have %d overdue tasks</string>
+
+    <string name="notification_title_singular">You have 1 pending task</string>
+    <string name="notification_title_plural">You have %d pending tasks</string>
+    <string name="notification_body_default">Check your tasks</string>
+    <string name="notification_body_today_singular">1 task for today</string>
+    <string name="notification_body_today_plural">%d tasks for today</string>
+    <string name="notification_body_overdue_singular">1 overdue task</string>
+    <string name="notification_body_overdue_plural">%d overdue tasks</string>
+    <string name="notification_body_both">%d for today and %d overdue</string>
+    <string name="notification_channel_description">Daily reminders for your tasks</string>
+
+    <!-- Dialogs -->
+    <string name="delete_group_title">Delete Group?</string>
+    <string name="delete_group_message">This group has %1$d tasks. What would you like to do?</string>
+    <string name="delete_group_and_tasks">Delete group and tasks</string>
+    <string name="move_tasks_to_none">Move tasks to "No Group"</string>
+    <string name="delete_task_title">Delete Task?</string>
+    <string name="delete_task_message">This action cannot be undone.</string>
+    <string name="delete_recurring_task_message">This will delete ALL instances of this recurring task (past, present, and future). This action cannot be undone.</string>
+    <string name="confirm">Confirm</string>
+
+    <!-- Share Tasks -->
+    <string name="share_tasks_chooser">Share tasks</string>
+
+    <!-- Data Export / Import -->
+    <string name="data_section">DATA</string>
+    <string name="export_tasks">Export tasks</string>
+    <string name="import_tasks">Import tasks</string>
+    <string name="export_success">Export completed</string>
+    <string name="import_invalid_file">Invalid file</string>
+    <string name="import_success">%1$d tasks imported</string>
+    <string name="import_conflict_title">Import conflict</string>
+    <string name="import_conflict_message">%1$d task(s) already exist with the same ID. What would you like to do?</string>
+    <string name="import_overwrite">Overwrite</string>
+    <string name="import_keep_mine">Keep mine</string>
+
+    <!-- Permissions -->
+    <string name="permission_notification_title">Enable Notifications</string>
+    <string name="permission_notification_message">Allow Super Task to send you reminders for your tasks.</string>
+    <string name="allow">Allow</string>
+    <string name="not_now">Not Now</string>
+</resources>

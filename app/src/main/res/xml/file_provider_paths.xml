@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <cache-path name="shared_images" path="images/"/>
+    <cache-path name="temp_note_images" path="note_images/temp/"/>
+    <files-path name="note_images" path="note_images/"/>
+</paths>
