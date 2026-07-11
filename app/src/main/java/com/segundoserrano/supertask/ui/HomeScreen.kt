@@ -181,16 +181,16 @@ fun HomeScreen(
                         }
                     }
 
-                    // Overdue
-                    organizedTasks[TaskSection.Overdue]?.let { tasks ->
+                    // Tomorrow
+                    organizedTasks[TaskSection.Tomorrow]?.let { tasks ->
                         if (tasks.isNotEmpty()) {
-                            item(key = "header_overdue") {
+                            item(key = "header_tomorrow") {
                                 SectionHeader(
-                                    title = stringResource(R.string.section_overdue),
-                                    color = MaterialTheme.colorScheme.error
+                                    title = stringResource(R.string.section_tomorrow),
+                                    color = MaterialTheme.colorScheme.onBackground
                                 )
                             }
-                            item(key = "section_overdue") {
+                            item(key = "section_tomorrow") {
                                 TaskSectionCard(
                                     tasks = tasks,
                                     allGroups = allGroups,
@@ -203,16 +203,16 @@ fun HomeScreen(
                         }
                     }
 
-                    // Tomorrow
-                    organizedTasks[TaskSection.Tomorrow]?.let { tasks ->
+                    // Overdue
+                    organizedTasks[TaskSection.Overdue]?.let { tasks ->
                         if (tasks.isNotEmpty()) {
-                            item(key = "header_tomorrow") {
+                            item(key = "header_overdue") {
                                 SectionHeader(
-                                    title = stringResource(R.string.section_tomorrow),
-                                    color = MaterialTheme.colorScheme.onBackground
+                                    title = stringResource(R.string.section_overdue),
+                                    color = MaterialTheme.colorScheme.error
                                 )
                             }
-                            item(key = "section_tomorrow") {
+                            item(key = "section_overdue") {
                                 TaskSectionCard(
                                     tasks = tasks,
                                     allGroups = allGroups,

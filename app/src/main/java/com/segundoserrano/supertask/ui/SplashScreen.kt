@@ -199,7 +199,7 @@ fun SplashScreen(
             // Versión - NUEVO
             Spacer(modifier = Modifier.height(48.dp))
             Text(
-                text = stringResource(R.string.version, "2026.04.26.00"),
+                text = stringResource(R.string.version, "2026.07.11.00"),
                 style = MaterialTheme.typography.bodySmall,
                 color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.4f),
                 modifier = Modifier.alpha(textAlpha),
